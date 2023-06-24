@@ -1,0 +1,58 @@
+.menu-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--blue, #00bafc);
+    padding: 56px 0;
+    gap: 16px;
+}
+
+.menu-title {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 130%;
+}
+.menu-text {
+    width: 650px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 150%;
+}
+
+.menu-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 24px 24px;
+}
+
+.input1 {
+    width: 300px;
+    padding: 16px 16px;
+    border: none;
+    border-radius: 5px;
+    background: var(--light-grey, #f3f3f3);
+}
+.input1:focus {
+    outline: none;
+}
+.menu-btn {
+    width: 231px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background: var(--blue, #00bafc);
+    color: #fff;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+}
