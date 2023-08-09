@@ -1,8 +1,11 @@
+.section-menu{
+    background: var(--blue, #00bafc);
+}
+
 .menu-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: var(--blue, #00bafc);
     padding: 56px 0;
     gap: 16px;
 }

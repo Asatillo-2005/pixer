@@ -1,8 +1,12 @@
+
+.section-footer{
+    background: var(--black, #191919);
+}
+
 .footer-box {
     display: flex;
     justify-content: center;
     padding: 56px 0;
-    background: var(--black, #191919);
 }
 
 .footer-item {
